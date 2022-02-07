@@ -455,7 +455,7 @@
     top: 0;
     width: 100%;
     height: 28px;
-    background: url('../img/bg/footer_decor.png') center no-repeat;
+    background: url('../img/bg/footer_decor.png') center /contain no-repeat;
   }
   // .footer__container
   &__container {
