@@ -381,6 +381,9 @@
   @media (max-width: 1024px) {
     margin-bottom: 0;
   }
+  @media (max-width: $md4 + px) {
+    margin-bottom: -20px;
+  }
   // .logo-main__logo
   &__logo {
     display: flex;
@@ -392,17 +395,12 @@
       filter: brightness(130%);
     }
     img {
+      width: 80%;
       @media (min-width: 320px) and (max-height: 1024px) {
-        width: 70%;
-      }
-      @media (max-width: 1200px) {
-        width: 70%;
-      }
-      @media (max-width: 1024px) {
-        width: 70%;
+        width: 65%;
       }
       @media (max-width: $md4 + px) {
-        width: 100%;
+        width: 80%;
       }
     }
   }

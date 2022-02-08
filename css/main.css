@@ -768,6 +768,12 @@ body {
   }
 }
 
+@media (max-width: 479.98px) {
+  .logo-main {
+    margin-bottom: -20px;
+  }
+}
+
 .logo-main__logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -791,27 +797,19 @@ body {
           filter: brightness(130%);
 }
 
+.logo-main__logo img {
+  width: 80%;
+}
+
 @media (min-width: 320px) and (max-height: 1024px) {
   .logo-main__logo img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .logo-main__logo img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .logo-main__logo img {
-    width: 70%;
+    width: 65%;
   }
 }
 
 @media (max-width: 479.98px) {
   .logo-main__logo img {
-    width: 100%;
+    width: 80%;
   }
 }
 
